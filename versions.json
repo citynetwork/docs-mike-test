@@ -3,5 +3,10 @@
     "version": "sto-com",
     "title": "sto-com",
     "aliases": []
+  },
+  {
+    "version": "main",
+    "title": "main",
+    "aliases": []
   }
 ]
