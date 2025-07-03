@@ -3,16 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Redirecting</title>
-  <noscript>
-    <meta http-equiv="refresh" content="1; url=main/" />
-  </noscript>
+  <meta http-equiv="refresh" content="10; url=main/" />
+</head>
+<body>
+  Redirecting to <a href="main/">main/</a>...
   <script>
     window.location.replace(
       "main/" + window.location.search + window.location.hash
     );
   </script>
-</head>
-<body>
-  Redirecting to <a href="main/">main/</a>...
 </body>
 </html>
